@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyuzuzo parfait | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <div class="welcome-container">
+            <h1>Hello, I'm <span>Cyuzuzo Parfait</span></h1>
+            <p class="subtitle">Web Developer / Database Administrator</p>
+
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+   <section id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+        <!-- VolunteerSync Project Card -->
+        <div class="project-card">
+            <div class="project-content">
+                <h3 class="project-title">VolunteerSync</h3>
+                <p class="project-description">
+                    A platform connecting volunteers with organizations to coordinate volunteer activities.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Parfaitcyuzuzo/Volunteer_sync" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add more project cards here as needed -->
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm an IT professional with a Bachelor's degree in Information Management from the African University of Central Africa (AUCA). My education and hands-on experience have equipped me with strong technical skills in both software development and database administration.</p>
+                 <p>As a software developer, I specialize in building clean, efficient applications using modern technologies. My database administration skills include designing optimized database structures, writing complex queries, and ensuring data integrity and security.</p>
+                <p>Skills:</p>
+                <ul class="skills-list">
+                    <li>JAVA</li>
+                    <li>SQL</li>
+                    <li>JavaScript</li>
+                    <!-- Add more skills -->
+                </ul>
+            </div>
+            <div class="about-image">
+                <!-- Add your image here -->
+                <img src="parfait.jpg" alt="Cyuzuzo Parfait">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-links">
+        <a href="mailto:cyuzuzoparfait2@gmail.com?subject=Portfolio Inquiry" class="btn contact-details">
+            <i class="fas fa-at"></i> Email
+            </a>
+            <a href="https://github.com/Parfaitcyuzuzo" target="_blank" class="btn contact-details">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn contact-details">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Auto-update year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
